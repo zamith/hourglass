@@ -1,6 +1,6 @@
-# hello-world
+# Hourglass
 
-FIXME
+A web time tracking system in clojure
 
 ## Prerequisites
 
