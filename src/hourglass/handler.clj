@@ -1,12 +1,8 @@
-(ns hello-world.handler
+(ns hourglass.handler
   (:use compojure.core,
-        hiccup.core)
+        layouts.application)
   (:require [compojure.handler :as handler]
             [compojure.route :as route]))
-
-(defn home []
-  (html
-    [:h1 "Home sweet home"]))
 
 (defroutes app-routes
   (GET "/" [] (home))
